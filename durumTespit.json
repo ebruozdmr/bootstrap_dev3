@@ -1,0 +1,31 @@
+[
+    {
+      "buttonTextContent": "Otobüs",
+      "buttonUrl": "#",
+      "urlTarget": "_blank",
+      "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
+      "buttonStyle": "background-color: rgba(176, 0, 14, 1);"
+    },
+    {
+      "buttonTextContent": "Durak",
+      "buttonUrl": "#",
+      "urlTarget": "_blank",
+      "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
+      "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
+    },
+    {
+      "buttonTextContent": "Aktarma Noktası",
+      "buttonUrl": "#",
+      "urlTarget": "_blank",
+      "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
+      "buttonStyle": "background-color: rgba(166, 99, 18, 1);"
+    },
+    {
+      "buttonTextContent": "İşlem Kaydı",
+      "buttonUrl": "#",
+      "urlTarget": "_blank",
+      "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
+      "buttonId":"islem",
+      "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
+    }
+  ]
