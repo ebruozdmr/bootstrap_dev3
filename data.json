@@ -3,7 +3,7 @@
     {
       "buttonTextContent": "İşlem Kaydı",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonId": "islem",
       "buttonStyle": "background-color: rgba(176, 0, 14, 1);"
@@ -11,7 +11,7 @@
     {
       "buttonTextContent": "Durum Tespit",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonId": "durum",
       "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
@@ -21,7 +21,7 @@
     {
       "buttonTextContent": "Otobüs",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
       "buttonId": "otobüs",
       "buttonStyle": "background-color: rgba(176, 0, 14, 1);"
@@ -29,69 +29,75 @@
     {
       "buttonTextContent": "Durak",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
+      "buttonId": "durak",
+
       "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
     },
     {
       "buttonTextContent": "Aktarma Noktası",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
+      "buttonId": "aktarmaNoktası",
+
       "buttonStyle": "background-color: rgba(166, 99, 18, 1);"
     },
     {
       "buttonTextContent": "Durum Tespit",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonId": "durum",
-      "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
+      "buttonStyle": "background-color: green;"
     }
   ],
   "durumTespit": [
     {
       "buttonTextContent": "Otobüs",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
       "buttonId": "otobüs",
-      "buttonStyle": "background-color: rgba(176, 0, 14, 1);"
+      "buttonStyle": "background-color: blue;"
     },
     {
       "buttonTextContent": "Durak",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
-      "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
+      "buttonId": "durak",
+      "buttonStyle": "background-color: purple;"
     },
     {
       "buttonTextContent": "Aktarma Noktası",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
-      "buttonStyle": "background-color: rgba(166, 99, 18, 1);"
+      "buttonId": "aktarmaNoktası",
+      "buttonStyle": "background-color: orange;"
     },
     {
       "buttonTextContent": "İşlem Kaydı",
       "buttonUrl": "#",
-      "urlTarget": "_blank",
+      "urlTarget": "_self",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonId": "islem",
-      "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
+      "buttonStyle": "background-color: gray;"
     }
   ],
   "otobüs": [
     {
       "buttonTextContent": "AYBS PC",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
       "buttonStyle": "background-color: rgba(166, 99, 18, 1);"
     },
     {
       "buttonTextContent": "AYBS Ekran",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
@@ -100,21 +106,21 @@
   "durak": [
     {
       "buttonTextContent": "DYBS PC",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
       "buttonStyle": "background-color: rgba(166, 99, 18, 1);"
     },
     {
       "buttonTextContent": "DYBS Ekran",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
     },
     {
       "buttonTextContent": "DYBS SensorBox",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
@@ -123,17 +129,20 @@
   "aktarmaNoktası": [
     {
       "buttonTextContent": "ANYBS PC",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12",
       "buttonStyle": "background-color: rgba(166, 99, 18, 1);"
     },
     {
       "buttonTextContent": "ANYBS Modem",
-      "buttonUrl": "#",
+      "buttonUrl": "https://www.google.com/",
       "urlTarget": "_blank",
       "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2",
       "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
     }
-  ]
+  ],
+  "anchor": {
+    "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2"
+  }
 }
