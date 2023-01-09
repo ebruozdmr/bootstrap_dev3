@@ -8,8 +8,8 @@ function createMainButtons() {
     })
     .then(function (obj) {
       data = obj;
-      setHeader(obj.mainPage.header);
-      setButtons(obj.mainPage.buttons);
+      setHeader(obj.main_page.header);
+      setButtons(obj.main_page.buttons);
     })
     .catch(function (error) {
       console.log("Fetch problem show: " + error.message);
@@ -21,29 +21,29 @@ function createInnerButtons(event) {
   const id = event.target.id;
   switch (id) {
     case "islem":
-      back = `<a href="index.html" class="${obj.anchor.buttonClassList}">Anasayfa</a>`;
-      setHeader(obj.islemKaydiPage.header);
-      setButtons(obj.islemKaydiPage.buttons);
+      // back = `<a href="index.html" class="${obj.anchor.buttonClassList}">Anasayfa</a>`;
+      setHeader(obj.islemKaydi_page.header);
+      setButtons(obj.islemKaydi_page.buttons);
       break;
     case "durum":
-      back = `<a href="index.html" class="${obj.anchor.buttonClassList}" >Anasayfa</a>`;
-      setHeader(obj.durumTespitPage.header);
-      setButtons(obj.durumTespitPage.buttons);
+      // back = `<a href="index.html" class="${obj.anchor.buttonClassList}" >Anasayfa</a>`;
+      setHeader(obj.durumTespit_page.header);
+      setButtons(obj.durumTespit_page.buttons);
       break;
     case "otobüs":
-      setHeader(obj.otobusPage.header);
-      setButtons(obj.otobusPage.buttons);
+      setHeader(obj.otobus_page.header);
+      setButtons(obj.otobus_page.buttons);
       break;
     case "durak":
-      setHeader(obj.durakPage.header);
-      setButtons(obj.durakPage.buttons);
+      setHeader(obj.durak_page.header);
+      setButtons(obj.durak_page.buttons);
       break;
     case "aktarma":
-      setHeader(obj.aktarmaPage.header);
-      setButtons(obj.aktarmaPage.buttons);
+      setHeader(obj.aktarma_page.header);
+      setButtons(obj.aktarma_page.buttons);
       break;
   }
-  document.querySelector(".back").innerHTML = back;
+  // document.querySelector(".back").innerHTML = back;
 }
 function setHeader(obj) {
   const newHeader = `<div class="${obj.divClassList}">

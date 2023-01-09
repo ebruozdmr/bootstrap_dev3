@@ -1,5 +1,5 @@
 {
-  "mainPage": {
+  "main_page": {
     "header": {
       "headerName": "Savronik ESHOT",
       "divClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 p-2",
@@ -25,7 +25,7 @@
       }
     ]
   },
-  "islemKaydiPage": {
+  "islemKaydi_page": {
     "header": {
       "headerName": "Savronik ESHOT İşlem Kaydı",
       "divClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 p-2",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "durumTespitPage": {
+  "durumTespit_page": {
     "header": {
       "headerName": "Savronik ESHOT Durum Tespit",
       "divClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 p-2",
@@ -111,7 +111,7 @@
       }
     ]
   },
-  "otobusPage": {
+  "otobus_page": {
     "header": {
       "headerName": "Otobüs Bileşenleri Durum Tespit",
       "divClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 p-2",
@@ -135,7 +135,7 @@
       }
     ]
   },
-  "durakPage": {
+  "durak_page": {
     "header": {
       "headerName": "Durak Bileşenleri Durum Tespit",
       "divClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 p-2",
@@ -166,7 +166,7 @@
       }
     ]
   },
-  "aktarmaPage": {
+  "aktarma_page": {
     "header": {
       "headerName": "Aktarma Bileşenleri Durum Tespit",
       "divClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 mb-5 p-2",
@@ -189,8 +189,5 @@
         "buttonStyle": "background-color: rgba(12, 109, 142, 1);"
       }
     ]
-  },
-  "anchor": {
-    "buttonClassList": "col-12 col-md-12 col-sm-12 col-lg-12 mt-5 p-2"
   }
 }
