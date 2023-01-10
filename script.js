@@ -1,4 +1,9 @@
 let data = null;
+let main_page_header = null;
+let main_page_buttons = null;
+let back = null;
+let headerArray = [];
+let buttonArray = [];
 
 window.addEventListener("DOMContentLoaded", createMainButtons());
 function createMainButtons() {
@@ -8,8 +13,11 @@ function createMainButtons() {
     })
     .then(function (obj) {
       data = obj;
-      setHeader(obj.main_page.header);
-      setButtons(obj.main_page.buttons);
+      main_page_header = obj.main_page.header;
+      main_page_buttons = obj.main_page.buttons;
+
+      setHeader(main_page_header); //obj.main_page.header
+      setButtons(main_page_buttons); //obj.main_page.buttons
     })
     .catch(function (error) {
       console.log("Fetch problem show: " + error.message);
@@ -51,6 +59,8 @@ function setHeader(obj) {
   ${obj.headerName}
   </h1>
   </div>`;
+  headerArray.push(newHeader);
+  console.log(headerArray);
   document.querySelector(".header").innerHTML = newHeader;
 }
 function setButtons(obj) {
@@ -63,5 +73,31 @@ function setButtons(obj) {
       ${button.buttonUrl === "#" ? 'onclick="createInnerButtons(event)"' : ""}>
       ${button.buttonName}</a></li>`
   );
+
   document.querySelector(".lists").innerHTML = newButtons.join("");
+  buttonArray.push(newButtons);
+  console.log(buttonArray);
+
+  if (obj === main_page_buttons) return;
+  back = `<a style="cursor:pointer;" onClick="setPreviousPage(event)">Back</a>`;
+  document.querySelector(".back").innerHTML = back;
+}
+
+function setPreviousPage(event) {
+  event.preventDefault();
+  console.log(headerArray);
+  console.log(buttonArray);
+
+  document.querySelector(".header").innerHTML = "";
+  document.querySelector(".header").innerHTML =
+    headerArray[headerArray.length - 2];
+  headerArray.pop();
+  document.querySelector(".lists").innerHTML = "";
+  document.querySelector(".lists").innerHTML =
+    buttonArray[buttonArray.length - 2].join("");
+  buttonArray.pop();
+  if (buttonArray.find(element=>element.id== "islem")) {
+    back = `<a style="display:none;">Back</a>`;
+    document.querySelector(".back").innerHTML = back;
+  }
 }
